@@ -2,5 +2,5 @@
 Hello Gdansk!
 
 
-Zmiana jakas
+Zmiana jakasaq
 sdadasd
