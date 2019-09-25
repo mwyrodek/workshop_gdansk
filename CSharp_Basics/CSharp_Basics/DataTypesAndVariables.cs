@@ -50,12 +50,18 @@ namespace CSharp_Basics
             Assert.That(singleDigit, Is.TypeOf<int>(), "You sure it is int?");
         }
 
-        /// <summary>
-        /// Basic operations at integers are
-        /// add(+), subtract(-), multiply(*), divide(/)
-        /// make integer variables: subtract, multiply and divide perform operations.
-        /// discuss why divide is not working
-        /// </summary>
+        //        /// <summary>
+        //        /// Basic operations at integers are
+        //        /// add(+), subtract(-), multiply(*), divide(/)
+        //        /// make integer variables: subtract, multiply and divide perform operations.
+        //        /// discuss why divide is not working
+        //        /// </summary>
+        //        /// <summary>
+        //        /// Basic operations at integers are
+        //        /// add(+), subtract(-), multiply(*), divide(/)
+        //        /// make integer variables: subtract, multiply and divide perform operations.
+        //        /// discuss why divide is not working
+        //        /// </summary>
         [Test]
         public void Operation_On_Integers()
         {
@@ -68,9 +74,10 @@ namespace CSharp_Basics
              * add = x+y;
              */
             int add = X + Y;
-            int subtract = X - Y;
-            double divide =  (double)Y/X;
-            int multiply = X * Y;
+            int subtract =X-Y;
+              int   multiply =X*Y ;
+              double divide = (double) Y/X;
+
             Assert.AreEqual(9, add, "Example Has wrong value did you changed it?");
             Assert.AreEqual(-1, subtract, "Wrong value maybe other way around?");
             Assert.That(subtract, Is.TypeOf<int>(), "You sure it is int?");
