@@ -15,3 +15,6 @@ https://www.pluralsight.com/courses/automated-testing-framework-selenium
 
 
 https://www.martinfowler.com/bliki/TestDouble.html
+
+Assercja
+https://www.youtube.com/watch?v=-UqjWcIW88I
